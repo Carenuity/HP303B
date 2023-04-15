@@ -13,11 +13,9 @@ The software for this project involves programming the ESP8266 microcontroller t
 
 ## Installation:
 To set up the project, follow these steps:
-
-- Assemble the hardware components according to the provided instructions for the Tripler base adapter.
+![image](https://user-images.githubusercontent.com/74060530/232247756-ead3f50a-f666-41e4-bf35-b454b19adf49.png)
+- Assemble the hardware components according to the provided instructions for the Tripler base adapter as shown above.
 - Connect the HP3O3B sensor to the Tripler base adapter as per the pinout diagram.
-- Connect the Tripler base adapter to the ESP8266 microcontroller.
-- Connect the 0.66-inch OLED display to the ESP8266 microcontroller.
 - Upload the software code to the ESP8266 microcontroller using a suitable programming environment or IDE.
 - Power up the system and verify that the environmental data is being displayed correctly on the OLED display.
 
