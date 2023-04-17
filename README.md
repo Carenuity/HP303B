@@ -29,7 +29,7 @@ Contributions to this project are welcome! If you would like to contribute, plea
 This project is released under the MIT License which allows for free use, modification, and distribution, but comes with no warranty or liability.
 
 Credits:
-This project was developed by TIMOTHY MWALA as part of www.carenuty.com . Credit goes to the respective manufacturers of the hardware components used in this project, as well as the open-source community for providing valuable resources and libraries.
+This project was developed by TIMOTHY MWALA as part of www.carenuity.com . Credit goes to the respective manufacturers of the hardware components used in this project, as well as the open-source community for providing valuable resources and libraries.
 
 ## Contact:
 For any questions, comments, or feedback regarding this project, please contact infor@carenuity.com 
