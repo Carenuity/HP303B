@@ -16,7 +16,7 @@ void setup() {
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.setTextColor(WHITE);
   // HP303B sensor setup
-  HP303B.begin(); // I2C address = 0x77
+  HP303B.begin();  // I2C address = 0x77
   // HP303B.begin(0x76); //I2C address = 0x76
 }
 
@@ -36,10 +36,10 @@ void loop() {
     display.setTextSize(1);
     display.println("T: error");
   } else {
-    display.setCursor(35,10);
+    display.setCursor(35, 10);
     display.setTextSize(1);
     display.println("Temperature:");
-    display.setCursor(40,21);
+    display.setCursor(40, 21);
     display.setTextSize(1);
     display.println(temperature);
     display.display();
@@ -54,11 +54,9 @@ void loop() {
     display.println("P: error");
   } else {
     display.clearDisplay();
-    display.setCursor(35,10);
-    display.setTextSize(1);
+    display.setCursor(35, 10);
     display.println("Pressure:");
-    display.setCursor(40,21);
-    display.setTextSize(1);
+    display.setCursor(40, 21);
     display.println(pressure);
     display.display();
   }
